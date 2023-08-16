@@ -1,0 +1,8 @@
+<div id="new">
+  <h1>NEW ARTICLE</h1>
+  <%= render "form", article: @article %>
+</div>
+<div class="back">
+  <i class="fa-solid fa-rotate-left"></i>
+  <%= link_to "retour aux articles", articles_path  %>
+</div>
